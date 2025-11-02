@@ -54,6 +54,8 @@ def transform(report_df: pd.DataFrame) -> pd.DataFrame:
         'IITU': 'IITU.L',
         'IUHC': 'IUHC.L',
         'NDIA': 'NDIA.L',
+        'NUKL': 'NUKL.DE',
+        'AVWS': 'AVWS.DE',
     }
     report_df['Ticker'] = report_df['Ticker'].replace(ticker_map)
 
